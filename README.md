@@ -6,7 +6,5 @@ def print_hello(string):
         if char in vowels:
             print("Hello World")
 
-
 user_input = input("Enter a string: ")
 num_vowels = print_hello(user_input)
-print("Number of vowels:", num_vowels)
